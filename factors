@@ -9,11 +9,11 @@ def factoring():
             if int(number) % 2 == 0:
                     print("{}={}*{}".format(number[:-1], int(number) // int(2), 2))
                     continue
-        #     i = 3
-        #     while i < int(number) // 2:
-        #         if int(number) % i == 0:
-        #             break
-        #         i = i + 2
-        #     print("{}={}*{}".format(number[:-1], int(number) // int(i), i))
+            i = 3
+            while i < int(number) // 2:
+                if int(number) % i == 0:
+                    break
+                i = i + 2
+            print("{}={}*{}".format(number[:-1], int(number) // int(i), i))
 
 factoring()
